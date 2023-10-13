@@ -1,5 +1,32 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.bgimage {
+
+  background-image: url('./images/1.jpg');
+  background-size: cover;
+  filter: blur(10px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.love {
+  font-size: 14em;
+  color: white;
+  z-index: 2;
+}
+
+img {
+  z-index: 1;position: absolute;
+}
+.img1 {
+
 }
 
 .App-logo {
